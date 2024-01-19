@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Celsius to Fahrenheit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Convert Celsius to Fahrenheit</h1>
+        <div class="input-container">
+            <input type="text" id="celsius" placeholder="Celsius" value="">
+            <button id="convert">Convert!</button>
+            <button id="change">Change</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="result">
+            <span id="result"></span>
+        </div>
+    </div>
+
+    <div id="errorModal" class="modal">
+      <div class="modal-content">
+        <h2 class="modal-title">Error</h2>
+        <p class="modal-text"></p>
+        <button class="modal-close">Close</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
